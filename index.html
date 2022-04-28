@@ -1,5 +1,3 @@
-```html
-html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +5,8 @@ html
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="javascript" href="javascript.js">
     <title>From Preview</title>
 </head>
 <body>
@@ -20,13 +20,13 @@ html
                 </div>
             </div>
         </div>
-        <div class="navbar">
+        <div class="navbar" id="colorpad">
             <div class="container">
                 <h2>ELDEN<span>RING</span></h2>
                 <ul>
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About me</a></li>
-                    <li><a href="#">Skills</a></li>
+                    <li><a href="#" onclick="setRandomColor()">Color</a></li>
                     <li><a href="#">Contact Me</a></li>
                 </ul>
             </div>
@@ -37,7 +37,7 @@ html
 
     <div class="features">
         <div class="container">
-            <div class="featu">
+            <div class="featu" >
                 <h3>Values</h3>
                 <p>Lorem lorem ...........</p>
             </div>
@@ -173,7 +173,7 @@ html
        <div class="container">
            <h2>RESUME</h2>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum impedit maxime deleniti ex fugit aliquid consectetur officiis, rerum obcaecati fuga, velit animi voluptas numquam eveniet perspiciatis, molestiae tenetur nesciunt recusandae.</p>
-           <button class="my-button">Download Resume</button>
+           <button class="my-button"><a href="#">Download Resume</a></button>
        </div>
    </div>
 
@@ -198,12 +198,15 @@ html
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis a nobis iure ut amet doloremque, assumenda quo alias facere nesciunt dolorem adipisci quas quisquam expedita perspiciatis natus ducimus iste eos?</p>
             <div class="exp">
                 <h3>
-                    Some Experience
+                    <h1>
+                        experience
+                    </h1>
                 </h3>
             </div>
         </div>
     </div>
 </div>
+<script src="javascript.js"></script>
 <!--End of Educ-->
 
 

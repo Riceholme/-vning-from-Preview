@@ -1,4 +1,5 @@
 /* start main roles */ 
+
 body{
     height: 40000px;
     box-sizing: border-box;
@@ -281,6 +282,16 @@ body{
     color: #03864D;
     font-weight: bold;
 }
+#mainButton{
+    background-color: white;
+    font-family: monospace;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
 .resume{
     text-align: center;
