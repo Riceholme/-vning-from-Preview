@@ -1,0 +1,326 @@
+/* start main roles */ 
+body{
+    height: 40000px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* End Main Roles*/
+
+
+
+/*Start Features */
+
+
+.features{
+    overflow: hidden;
+    padding-top:40px ;
+    padding-bottom: 50px;
+}
+
+.features .featu{
+    float: left;
+    width: 33.33%;
+    height: 150px;
+}
+
+.features .featu h3{
+    color: aquamarine;
+}
+.features .featu p{
+    line-height: 1.5;
+    color: #b8b8b8;
+}
+/* start main roles */ 
+body{
+    height: 40000px;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.cleanfix{clear: both;}
+/* End Main Roles*/
+
+
+/*Start header*/
+.header .slider{
+    background-image: url(/images/OpQmCg.webp);
+    background-size: cover;
+    height: 800px;
+}
+
+.header .slider .intro{
+    padding-top: 350px;
+    height: 600px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.header .slider .intro h1{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top:10px solid rgb(255, 255, 255)  ;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+.header .slider .intro button{
+    background: none;
+    color:rgb(255, 255, 255);
+    margin-top: 30px;
+    font-size: 20px;
+    border: 8px solid rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+
+.header .navbar{
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.header .navbar h2{
+    float: left; 
+    text-transform: uppercase;
+}
+
+
+.header .navbar h2 span {color: rgb(179, 17, 17);}
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li.active a, .header .navbar ul li a:hover{
+    color: #21a265;
+}
+
+/* End Header */ 
+/*Start Features */
+
+
+.features{
+    overflow: hidden;
+    padding-top:40px ;
+    padding-bottom: 50px;
+}
+
+.features .featu{
+    float: left;
+    width: 33.33%;
+    height: 150px;
+}
+
+.features .featu h3{
+    color: #03864D;
+}
+.features .featu p{
+    line-height: 1.5;
+    color: #b8b8b8;
+}
+
+/*Start About me*/
+
+.about-me{
+   
+    overflow: hidden;
+    
+}
+
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{ width: 100%;}
+
+.about-me .info{
+    float: left;
+    width: 60%;
+    
+}
+
+.about-me .info h2{
+    margin: 25px 0 20px 40px;
+}
+
+.about-me .info > p{
+    margin: 0 0 10px 40px;
+    color: #555555;
+}
+
+.about-me .info > p:last-of-type{
+    margin: 40px;
+}
+
+.about-me .info p {
+    line-height: 1.6;
+    color: #6666;
+}
+
+.about-me .info .hobbies{
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+.about-me .container .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.about-me .info .hobbies .content h3 {
+    color: #555;
+
+}
+
+.about-me .info .hobbies .content .icon{
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.about-me .info .hobbies .content .icon img{
+    max-width: 100% ;
+    margin: 40px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text{
+    float: left;
+    width: 85%;
+}
+
+.about-me .info .hobbies .content .text p{
+    margin-top: 0px;
+}
+.about-me .info .hobbies .content .text h3{margin-bottom: 5px;}
+
+/*End About me*/
+
+/*Start Skills*/
+
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.my-skills .skills h2{
+    margin: 25px 0 20px 0px;
+}
+
+.my-skills .skills p{
+    margin: 0 125px 10px 0px;
+}
+
+.my-skills .skills p:last-of-type{
+    margin-top: 25px;
+}
+
+.my-skills .skills .my-button{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.my-skills .skills, .my-skills .progress {
+    width: 50%;
+    float: left;
+}
+
+.my-skills .progress .skills{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.my-skills .progress .skill h3{
+    background-color: rgb(223, 241, 225);
+}
+
+.my-skills .progress .skill div{
+    background-color: #ffffff;
+}
+
+.my-skills .progress .skill div span{
+    background-color: #0d9937;
+
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: rgb(24, 211, 55);
+    font-weight: bold;
+}
+
+/*End Skills*/
+
+/*Start Frame*/
+
+.my-button{
+    background: none;
+    border: 2px solid #03864D;
+    padding: 10px 30px;
+    color: #03864D;
+    font-weight: bold;
+}
+
+.resume{
+    text-align: center;
+    background-color: rgb(223, 241, 225);
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.resume .container p{
+    padding-bottom: 15px;
+}
+/*End Frame*/
+
+/*Start Education*/
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main, .my-education .exp{
+    width: 50%;
+    float: left;
+}
+.my-education .main h2{
+    margin: 25px 0 20px 40px;
+    color: black;
+}
+.my-education .main p{
+    margin: 0 0 10px 40px;
+}
+.my-education .main p:last-of-type{
+    margin-top: 30px;
+}
+
+/*End Education*/
+
+
+
+
+
+
+
+
+
